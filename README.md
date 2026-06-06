@@ -74,20 +74,35 @@ plain
 
 Global_Public_Health_Analytics/
 ├── data/
+
 │   ├── DimCountry.csv          # Country dimension table
+
 │   ├── DimDate.csv             # Date dimension table
+
 │   ├── FactCovidMetrics.csv    # Main data table
+
 │   └── Cleaned_CovidData.csv   # Full cleaned dataset
+
 ├── charts/
+
 │   ├── top10_mortality.png
+
 │   ├── top10_infection.png
+
 │   ├── continent_comparison.png
+
 │   ├── global_time_series.png
+
 │   ├── case_fatality_rate.png
+
 │   ├── healthcare_capacity.png
+
 │   └── rolling_7day_average.png
+
 ├── notebook/
+
 │   └── covid_analysis.ipynb    # The full Colab notebook
+
 └── README.md                   # This file
 
 How to Run This Yourself
